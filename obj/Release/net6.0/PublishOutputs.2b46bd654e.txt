@@ -1,0 +1,7 @@
+D:\cursos\AzureDevops\app-net-web\bin\Release\net6.0\publish\app-net-web.exe
+D:\cursos\AzureDevops\app-net-web\bin\Release\net6.0\publish\appsettings.Development.json
+D:\cursos\AzureDevops\app-net-web\bin\Release\net6.0\publish\appsettings.json
+D:\cursos\AzureDevops\app-net-web\bin\Release\net6.0\publish\app-net-web.dll
+D:\cursos\AzureDevops\app-net-web\bin\Release\net6.0\publish\app-net-web.deps.json
+D:\cursos\AzureDevops\app-net-web\bin\Release\net6.0\publish\app-net-web.runtimeconfig.json
+D:\cursos\AzureDevops\app-net-web\bin\Release\net6.0\publish\app-net-web.pdb
