@@ -22,5 +22,5 @@ jobs:
      
       - name: Buil and push imagen 
         run: |
-         docker build -t xaviwill2020/app_net_web:v1 .
-         docker push xaviwill2020/app_net_web:v1
+         docker build -t xaviwill2020/app_net_web:latest .
+         docker push xaviwill2020/app_net_web:latest
