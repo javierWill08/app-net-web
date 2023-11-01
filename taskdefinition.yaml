@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "app-net",
-            "image": "xaviwill2020/app_net_web:v1",
+            "image": "xaviwill2020/app_net_web:latest",
             "cpu": 0,
             "memory": 2048,
             "memoryReservation": 2048,
