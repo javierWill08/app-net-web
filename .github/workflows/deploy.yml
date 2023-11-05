@@ -45,3 +45,7 @@ jobs:
           wait-for-service-stability: true
         env:
             AWS_DEFAULT_REGION: us-east-1
+
+      - name: despliegue con aws cli
+        run: |
+         aws ecs run-task --cluster CloudJavier --launch-type FARGATE --task-definition app-web-test --network-configuration "awsvpcConfiguration={subnets=[subnet-08669188e1ef37192,subnet-0dc63108ff98b9341,subnet-03b4d363fe5ce400e,subnet-06049987cc465c2bf,subnet-03a8f86b1d80cb565,subnet-0890b00b6cb73620d],securityGroups=[sg-0e4e961b662102577],assignPublicIp=ENABLED}"
