@@ -40,5 +40,6 @@ jobs:
       - name: despliegue tarea
         uses: aws-actions/amazon-ecs-deploy-task-definition@v1
         with: 
-          family: app-web-test
           task-definition: taskdefinition.json
+          cluster: CloudJavier
+          wait-for-service-stability: true
