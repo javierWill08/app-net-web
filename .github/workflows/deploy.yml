@@ -43,3 +43,5 @@ jobs:
           task-definition: taskdefinition.yaml 
           cluster: CloudJavier
           wait-for-service-stability: true
+        env:
+            AWS_DEFAULT_REGION: us-east-1
