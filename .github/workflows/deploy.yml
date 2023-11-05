@@ -40,6 +40,6 @@ jobs:
       - name: despliegue tarea
         uses: aws-actions/amazon-ecs-deploy-task-definition@v1
         with: 
-          task-definition: taskdefinition.json
+          task-definition: taskdefinition.yaml 
           cluster: CloudJavier
           wait-for-service-stability: true
